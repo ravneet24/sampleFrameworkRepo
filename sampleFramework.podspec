@@ -9,9 +9,9 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   spec.author             = { "Ravneet Arora" => "ravneet@mplgaming.com" }
  
-  spec.source       = { :git => "https://github.com/ravneet24/sampleFrameworkRepo.git" }
+  spec.source       = { :git => "https://github.com/ravneet24/sampleFrameworkRepo.git", :tag => "#{spec.version}" }
   spec.platform = :ios
-  spec.vendored_frameworks = "sampleFramework.xcframework"
+  spec.vendored_frameworks = "sampleFramework.xcframework.zip"
 
  
 end
