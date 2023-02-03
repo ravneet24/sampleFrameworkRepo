@@ -1,0 +1,82 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "sampleFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SampleClass",
+        "printedName": "SampleClass",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SampleClass",
+                "printedName": "sampleFramework.SampleClass",
+                "usr": "s:15sampleFramework11SampleClassC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15sampleFramework11SampleClassCACycfc",
+            "mangledName": "$s15sampleFramework11SampleClassCACycfc",
+            "moduleName": "sampleFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "printName",
+            "printedName": "printName(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15sampleFramework11SampleClassC9printName4nameySS_tF",
+            "mangledName": "$s15sampleFramework11SampleClassC9printName4nameySS_tF",
+            "moduleName": "sampleFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15sampleFramework11SampleClassC",
+        "mangledName": "$s15sampleFramework11SampleClassC",
+        "moduleName": "sampleFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
